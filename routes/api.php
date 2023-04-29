@@ -5,8 +5,6 @@ use App\Http\Controllers\CityController;
 use App\Http\Controllers\CityStudentController;
 use App\Http\Controllers\StudentController;
 use App\Http\Controllers\UniversityController;
-use App\Models\City;
-use App\Models\University;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 

@@ -19,9 +19,4 @@ class City extends Model
         'GDP'
     ];
 
-    // public function students()
-    // {
-    //     return $this->hasMany(Gutiar::class);
-    // }
-
 }

@@ -18,9 +18,4 @@ class University extends Model
         'CEO',
     ];
 
-    // public function students()
-    // {
-    //     return $this->hasMany(Gutiar::class);
-    // }
-
 }
