@@ -31,12 +31,10 @@ class DatabaseSeeder extends Seeder
         University::insert([
             [
                 "name" => "FON",
-                "city" => "Belgrade",
                 "CEO" => "Dusan Savic"
             ],
             [
                 "name" => "FTN",
-                "city" => "Novi Sad",
                 "CEO" => "Pera Peric"
             ]
         ]);

@@ -16,7 +16,6 @@ return new class extends Migration
         Schema::create('universities', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->string('city')->nullable();
             $table->string('CEO')->nullable();
         });
     }

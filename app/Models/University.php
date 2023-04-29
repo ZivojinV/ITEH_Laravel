@@ -14,7 +14,6 @@ class University extends Model
 
     protected $fillable = [
         'name',
-        'city',
         'CEO',
     ];
 

@@ -19,7 +19,6 @@ class UniversityResource extends JsonResource
         return [
             'id' => $this->resource->id,
             'name' => $this->resource->name,
-            'city' => $this->resource->city,
             'CEO' => $this->resource->CEO,
         ];
     }

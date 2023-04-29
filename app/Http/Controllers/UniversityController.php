@@ -86,14 +86,12 @@ class UniversityController extends Controller
         $input = $request->all();
         $validator = Validator::make($input, [
             'name' => 'required|string',
-            'city' => 'required|string',
             'CEO' => 'required|string',
         ]);
         if ($validator->fails()) {
             return $this->sendError('Validation Error.', $validator->errors());
         }
         $university->name = $input['name'];
-        $university->city = $input['city'];
         $university->CEO = $input['CEO'];
         $university->save();
         return response()->json([
