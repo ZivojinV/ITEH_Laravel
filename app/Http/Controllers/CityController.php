@@ -48,7 +48,7 @@ class CityController extends Controller
         $city = City::create($input);
         return response()->json([
             "success" => true,
-            "message" => "Body Type created successfully.",
+            "message" => "Data created successfully.",
             "data" => $city
         ]);
     }

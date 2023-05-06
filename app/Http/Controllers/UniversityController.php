@@ -48,7 +48,7 @@ class UniversityController extends Controller
         $university = University::create($input);
         return response()->json([
             "success" => true,
-            "message" => "University created successfully.",
+            "message" => "Data created successfully.",
             "data" => $university
         ]);
     }
